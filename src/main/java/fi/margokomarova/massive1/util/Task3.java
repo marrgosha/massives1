@@ -2,7 +2,7 @@ package fi.margokomarova.massive1.util;
 
 public class Task3 {
     public static void calculateTask3() {
-        int[] arr = new int[]{5, 5, 2, 13, 7, 11, 13, -4, 1, 10};
+        int[] arr = new int[]{5, -3, 2, 1, 7, 11, 12, -4, 1, 10};
         int prime = arr.length;
         int counter = 0;
         for (int index = 0; index <= arr.length - 1; index++) {
